@@ -1,0 +1,123 @@
+/**********************HTML TAGS********************/
+body{
+  margin: 0;
+  text-align: center;/*Centers everything without a width set,
+  if it does have a width an you want to center it from side to side then use:
+  margin: 0 auto 0 auto    top right bottom left*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /*100% = 16px => (90/16)x100=562.5 this makes the font size dynamic
+  16px = 100% = 1em
+  1rem means root em so it doesn't inherit the font size from parent*/
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #9896f1;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #9896f1;
+  font-weight:normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#856c8b;
+}
+/*a {
+  color:#856c8b;
+}*/
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: gray;
+  border-width: 5px;
+}
+
+/**********************CLASS TAGS********************/
+.top-container {
+  background-color: #defcf9;
+  position:relative;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #9896f1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left:200px;
+  bottom:500px;
+}
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.skill-row {
+  width:50%;
+  margin: 100px auto 100px auto;
+  line-height:2;
+  text-align: left;
+}
+.code-img{
+  float:left;
+  width:25%;
+}
+.giphy-embed{
+  float:right;
+  width:25%;
+}
+.profile{
+  width:50%;
+  margin: 100px auto 100px auto;
+}
+.footer-link{
+  padding:20px;
+}
+
+.button {
+	-moz-box-shadow: 0 10px 14px -7px #504dfa;
+	-webkit-box-shadow: 0 10px 14px -7px #504dfa;
+	box-shadow: 0 10px 14px -7px #504dfa;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9896f1), color-stop(1, #504dfa) );
+	background:-moz-linear-gradient( center top, #9896f1 5%, #504dfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9896f1', endColorstr='#504dfa');
+	background-color:#9896f1;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0 1px 0 #504dfa;
+  margin-bottom:20px;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #504dfa), color-stop(1, #9896f1) );
+	background:-moz-linear-gradient( center top, #504dfa 5%, #9896f1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#504dfa', endColorstr='#9896f1');
+	background-color:#504dfa;
+}
